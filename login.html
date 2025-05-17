@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+
+    .container img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .overlay-text h1 {
+      font-size: 2em;
+      color: white;
+      margin-bottom: 0.2em;
+    }
+
+    .overlay-text .prank {
+      color: red;
+      
+      font-size: 2.5em;
+      margin-bottom: 1em;
+      -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 217, 255, 0.4));
+      line-height: 1em;
+      -webkit-backdrop-filter: blur(15px)
+    }
+
+    .overlay-text .click-here {
+      font-size: 1.5em;
+      color: white;
+      text-transform: uppercase;
+      margin: 0.5em 0;
+    }
+
+    .overlay-text .click-here a{
+      text-decoration: underline;
+      font-size: 1.5em;
+      color: white;
+      margin: 0.5em 0;
+      text-transform: uppercase;
+    }
+
+    .overlay-text .bcs {
+      font-size: 3em;
+      color: #e100ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="cat.jpg" alt="Prank Image">
+    <div class="overlay-text">
+      <h1>ITS JUST A</h1>
+      <div class="prank">PRANK😅😅</div>
+      <div class="click-here"><a href="https://chat.whatsapp.com/DhxfbIqoVcoCN88I43tsR0">CLICK HERE TO SEE WHO</a><br></div>
+      <div class="bcs">22BCS</div>
+    </div>
+  </div>
+
+</body>
+</html>
